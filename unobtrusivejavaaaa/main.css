@@ -1,0 +1,71 @@
+body {
+    font-family: 'Comfortaa', sans-serif;
+    background: rgb(206, 150, 224);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+button {
+    border: none;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+    font-size: 0.8rem; 
+    font-weight: 500;
+    width: 100px; 
+    height: 60px;
+    margin: 15px;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.1);
+    background: #60079f;
+    color: #8a2be2;
+}
+
+button:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+    background: #6a0dad;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #8a2be2 0%, #6a0dad 100%);
+    color: #e8d0ff;
+}
+
+.btn-secondary {
+    background: linear-gradient(135deg, #8a2be2 0%, #6a0dad 100%);
+    color: #e8d0ff;
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+    color: #e8d0ff;
+}
+
+.btn-lg {
+    padding: 8px;
+}
+
+#btnCounter {
+    background: linear-gradient(135deg, #8a2be2 0%, #6a0dad 100%);
+}
+
+#btnCounter:hover {
+    background: #6f42c1;
+}
+
+#btnTwoAlerts {
+    background: linear-gradient(135deg, #8a2be2 0%, #6a0dad 100%);
+}
+
+#btnTwoAlerts:hover {
+    background: #6f42c1;
+}
